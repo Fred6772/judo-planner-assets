@@ -1,0 +1,18 @@
+{
+  "name": "Judo Planner",
+  "short_name": "Judo Planner",
+  "description": "Application de planification des cours de judo",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0757c8",
+  "icons": [
+    {
+      "src": "icone-judo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
