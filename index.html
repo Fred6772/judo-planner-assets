@@ -6,21 +6,96 @@
 
   <title>Judo Planner</title>
 
+  <meta name="theme-color" content="#0757c8">
+
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="Judo Planner">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
   <link rel="apple-touch-icon" sizes="180x180" href="icone-judo.png">
+  <link rel="icon" type="image/png" href="icone-judo.png">
   <link rel="manifest" href="manifest.webmanifest">
 
-  <script>
-    window.location.replace(
-      "https://script.google.com/macros/s/AKfycbxESmoJgYhw-0REvaGueb2o6GZ1LVT5SVi4wcoSiiXYuIqCWssm9ji0RczKL2uSqv3Orw/exec"
-    );
-  </script>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f7fb;
+      color: #102a56;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .icon {
+      width: 150px;
+      height: 150px;
+      border-radius: 30px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 34px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+      color: #536987;
+    }
+
+    .button {
+      display: block;
+      margin-top: 30px;
+      padding: 18px;
+      background: #0757c8;
+      color: white;
+      text-decoration: none;
+      border-radius: 14px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .instruction {
+      margin-top: 30px;
+      padding: 20px;
+      background: white;
+      border-radius: 16px;
+      font-size: 16px;
+    }
+  </style>
 </head>
 
 <body>
-  <p>Ouverture de Judo Planner…</p>
+
+  <div class="container">
+
+    <img src="icone-judo.png" class="icon" alt="Judo Planner">
+
+    <h1>Judo Planner</h1>
+
+    <p>
+      Application d'organisation des enseignants<br>
+      Club Midori
+    </p>
+
+    <div class="instruction">
+      <strong>📱 Installation sur iPhone</strong><br><br>
+      Dans Safari, touchez <strong>Partager</strong>, puis
+      <strong>Sur l'écran d'accueil</strong>.
+    </div>
+
+    <a class="button"
+       href="https://script.google.com/macros/s/AKfycbxESmoJgYhw-0REvaGueb2o6GZ1LVT5SVi4wcoSiiXYuIqCWssm9ji0RczKL2uSqv3Orw/exec">
+      Ouvrir Judo Planner
+    </a>
+
+  </div>
+
 </body>
 </html>
